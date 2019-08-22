@@ -1,0 +1,302 @@
+{
+	"Audio": {
+		"LowLimiter": {
+			"address": 65,
+			"attribute": true,
+			"type": "limiter",
+			"value": {
+				"attacktime": 10,
+				"releasetime": 1000,
+				"thresgain": -18
+			},
+			"x": 595,
+			"y": 118
+		},
+		"Mode": {
+			"address": 1,
+			"attribute": true,
+			"type": "flagMark",
+			"value": 2,
+			"x": 246,
+			"y": 171
+		},
+		"NormalEQ": {
+			"address": 5,
+			"attribute": true,
+			"bands": 7,
+			"type": "EQ",
+			"value": [
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				}
+			],
+			"x": 362,
+			"y": 120
+		},
+		"PostEQ": {
+			"address": 40,
+			"attribute": true,
+			"bands": 3,
+			"type": "EQ",
+			"value": [
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				}
+			],
+			"x": 825,
+			"y": 116
+		},
+		"PostGain": {
+			"address": 4,
+			"attribute": true,
+			"type": "gain",
+			"value": 0,
+			"x": 1059,
+			"y": 166
+		},
+		"PreGain": {
+			"address": 3,
+			"attribute": true,
+			"type": "gain",
+			"value": 0,
+			"x": 136,
+			"y": 171
+		},
+		"VirLimiter": {
+			"address": 145,
+			"attribute": true,
+			"type": "limiter",
+			"value": {
+				"Holdtime": 20,
+				"releasetime": 1000,
+				"thresgain": 0
+			},
+			"x": 828,
+			"y": 222
+		},
+		"VirPostGain": {
+			"address": 114,
+			"attribute": true,
+			"type": "gain",
+			"value": 0,
+			"x": 943,
+			"y": 222
+		},
+		"VirPreGain": {
+			"address": 112,
+			"attribute": true,
+			"type": "gain",
+			"value": -16,
+			"x": 362,
+			"y": 223
+		},
+		"VirReverb": {
+			"address": 115,
+			"attribute": true,
+			"bands": 1,
+			"type": "EQ",
+			"value": [
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 250,
+					"gain": 0,
+					"type": "HighPass"
+				}
+			],
+			"x": 480,
+			"y": 223
+		},
+		"VirReverbG": {
+			"address": 113,
+			"attribute": true,
+			"type": "gain",
+			"value": 15,
+			"x": 596,
+			"y": 223
+		},
+		"VirtualEQ": {
+			"address": 120,
+			"attribute": true,
+			"bands": 5,
+			"type": "EQ",
+			"value": [
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 100,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				}
+			],
+			"x": 712,
+			"y": 223
+		},
+		"VoiHCross": {
+			"address": 92,
+			"attribute": true,
+			"type": "crossPoint",
+			"value": 9000,
+			"x": 480,
+			"y": 170
+		},
+		"VoiLCross": {
+			"address": 82,
+			"attribute": true,
+			"type": "crossPoint",
+			"value": 200,
+			"x": 363,
+			"y": 171
+		},
+		"VoiceEQ": {
+			"address": 102,
+			"attribute": true,
+			"bands": 2,
+			"type": "EQ",
+			"value": [
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				},
+				{
+					"Q": 0.7070000171661377,
+					"frequency": 1000,
+					"gain": 0,
+					"type": "Bypass"
+				}
+			],
+			"x": 712,
+			"y": 170
+		},
+		"VoiceGain": {
+			"address": 81,
+			"attribute": true,
+			"type": "gain",
+			"value": 0,
+			"x": 595,
+			"y": 170
+		},
+		"crossOver": {
+			"address": 55,
+			"attribute": true,
+			"type": "crossPoint",
+			"value": 250,
+			"x": 480,
+			"y": 119
+		},
+		"funchoice": {
+			"address": 0,
+			"attribute": false,
+			"type": "flagMark",
+			"value": 1,
+			"x": 0,
+			"y": 0
+		},
+		"higLimiter": {
+			"address": 73,
+			"attribute": true,
+			"type": "limiter",
+			"value": {
+				"attacktime": 10,
+				"releasetime": 1000,
+				"thresgain": -18
+			},
+			"x": 710,
+			"y": 117
+		},
+		"volume": {
+			"address": 2,
+			"attribute": true,
+			"type": "gain",
+			"value": 0,
+			"x": 22,
+			"y": 171
+		}
+	},
+	"Project": {
+		"ChipID": "MicroChip",
+		"Version": 7,
+		"checksum": 3221225485,
+		"flag": "Doing",
+		"name": "Leadelity",
+		"type": 0
+	}
+}
